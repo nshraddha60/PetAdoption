@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.exp.android_user.canteenautomation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/justpaws"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/justpaws"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="Sign Up" />
+        <activity
+            android:name=".Home"
+            android:label="Menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Sign In" />
+        <activity
+            android:name=".AdminPortal"
+            android:label="Admin Sign In" />
+        <activity
+            android:name=".Receipt"
+            android:label="Receipt" />
+        <activity
+            android:name=".Cart"
+            android:label="Placed Orders" />
+        <activity
+            android:name=".Logout"
+            android:label="Sign Out" />
+        <activity
+            android:name=".AdminInsertFood"
+            android:label="Admin Insert Food" />
+        <activity
+            android:name=".UserDetails"
+            android:label="Registered User Details" />
+        <activity android:name=".FoodList" />
+        <activity android:name=".FoodItemDetail" />
+        <activity android:name=".AdminMenu" />
+        <activity android:name=".AdminOrderDetails"></activity>
+    </application>
+
+</manifest>

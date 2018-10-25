@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:scrollbars="vertical"
+    tools:context="com.exp.android_user.canteenautomation.AdminInsertFood">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/pet_category"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="61dp"
+            android:gravity="center"
+            android:hint="Pet Category"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etid_categoryId"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pet_category"
+            android:layout_alignStart="@+id/pet_category"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="NGO ID"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/pet_id"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etid_categoryId"
+            android:layout_alignStart="@+id/etid_categoryId"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="Pet ID"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/no_of_pets_available"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pet_id"
+            android:layout_alignStart="@+id/pet_id"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="No. of Pets Available"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etid_desc"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_of_pets_available"
+            android:layout_alignStart="@+id/no_of_pets_available"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:hint="Description"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/pet_image_button"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etid_desc"
+            android:layout_alignStart="@+id/etid_desc"
+            android:layout_marginStart="-8dp"
+            android:layout_marginTop="20dp"
+            android:text="Insert Image of Pet" />
+
+        <Button
+            android:id="@+id/insert_data_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="92dp"
+            android:text="Insert data" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="189dp"
+            android:layout_marginBottom="111dp"
+            android:layout_below="@+id/pet_image_button"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="logincolor">#00FFFF</color>
+    <color name="registercolor">#00BFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="loginAct">#0000FF</color>
+    <color name="Red">#FF0000</color>
+
+    <color name="overlayBackground">#7f333693</color>
+    <color name="overlayActionBar">#0e0d0e</color>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="#4EDEF4"
+    tools:context="com.exp.android_user.canteenautomation.Register">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/register" />
+
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="12"
+        android:hint="Name"
+        android:background="@color/white"
+        android:layout_marginLeft="30dp"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="12"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <EditText
+        android:id="@+id/edit_textpassword"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="12"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="205dp" />
+
+    <EditText
+        android:id="@+id/edit_text_contact"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="12"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Phone"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/edit_text_address"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:ems="12"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="359dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/button_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="45dp"
+            android:text="cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

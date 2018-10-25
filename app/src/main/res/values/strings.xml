@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">JustPaws</string>
+    <string name="slogan">Nothing brings people Together like Good Food...</string>
+    <string name="title_activity_order">order</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="rupee">Rupees</string>
+
+</resources>

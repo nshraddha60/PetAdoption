@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Pname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Quantity"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="81dp"
+        android:layout_toEndOf="@+id/Quantity"
+        android:text="Pname"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pname"
+        android:layout_marginTop="59dp"
+        android:layout_toEndOf="@+id/Quantity"
+        android:text="Price"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="233dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/email_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Pname"
+        android:layout_below="@+id/Price"
+        android:layout_marginTop="41dp"
+        android:text="email_username" />
+
+    <TextView
+        android:id="@+id/Productid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Pname"
+        android:layout_below="@+id/email_username"
+        android:layout_marginTop="58dp"
+        android:text="Product Id" />
+</RelativeLayout>
